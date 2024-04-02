@@ -1,26 +1,138 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 15;
-    color: #333;
-    background-color: #f0f0f0;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #007bff;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
 }
 
 a {
-    text-decoration: none;
-    color: #007bff;
+    text-decoration: none; 
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; 
 }
 
 p::first-letter {
-    font-size: 1.5em;
+    font-size: 1.5em; 
     float: left;
-    margin-right: 5px;
+    margin-right: 6px; 
+    line-height: 1; 
+}
+
+#about {
+    background-color: #ffc107;
+    padding: 20px;
+    color: #333; 
+}
+
+#classes {
+    background-color: #e8f5e9;
+    padding: 20px;
+}
+
+#movies {
+    background-color: #fff3e0; 
+    padding: 20px;
+}
+
+#images {
+    background-color: #e0f7fa; 
+    padding: 20px;
+    overflow: auto; 
+}
+
+#neighbors {
+    background-color: #f8bbd0;
+    padding: 20px;
+}
+
+#labs {
+    background-color: #ede7f6; 
+    padding: 20px;
+}
+
+#contact {
+    background-color: #d7ccc8; 
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+dl {
+    margin: 0;
+    padding: 0;
+}
+
+dt {
     font-weight: bold;
+    margin-top: 10px;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+figure {
+    text-align: center;
+    float: left; 
+    width: 45%; 
+    margin: 0 2.5% 20px 2.5%; 
+}
+
+figcaption {
+    font-style: italic;
+    margin-top: 5px;
+    color: #888;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p.image-container {
+    text-align: center;
+}
+
+p.image-container img {
+    float: left;
+    width: 45%; 
+    margin: 0 2.5% 20px 2.5%; 
 }
