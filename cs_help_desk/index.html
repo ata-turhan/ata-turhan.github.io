@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compro Help Desk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="miu.png" alt="Maharishi University IT Dept">
+            Maharishi University IT Dept
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#agent-portal">Agent Portal</a></li>
+                <li><a href="#submit-ticket">Submit Ticket</a></li>
+                <li><a href="#knowledge-base">Knowledge Base</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <header class="welcome">Welcome to our Support Center</header>
+
+    <main>
+        <section id="login-section">
+            <h2>Login</h2>
+            <p>Login to know the status of the ticket</p>
+
+            <div class="azure-login">
+        <div class="azure-login-button">
+            <button><img src="azure ad.png" alt="Azure Logo"> </button>
+            <label for="azure-login">or login using</label>
+        </div>
+    </div>
+
+            <form action="#" method="POST">
+                <label for="username-email">Username or Email</label>
+                <input type="text" id="username-email" name="username-email" value="Ata Turhan">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password">
+                <div class="remember-me">
+                    <div class="remember">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#forgot-password">Forgot password?</a>
+                </div>
+                
+                <button id="submit-btn", type="submit">Login</button>
+            </form>
+        </section>
+        <section id="additional-info">
+            <p>Login to track your existing support requests. If you have not created a ticket yet then you would need to register or create a new ticket to begin.</p>
+            <button >Submit ticket</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright 2020, All rights reserved</p>
+    </footer>
+</body>
+</html>

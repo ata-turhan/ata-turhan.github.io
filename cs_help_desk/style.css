@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    display: flex;
+    align-items: center; 
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px; 
+    margin-right: 10px; 
+    border-right: 1px solid #ccc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.welcome {
+    padding: 60px;
+    justify-content: center;
+    background: #115156;
+    color: white;
+    font-size: 40px;
+}
+
+main {
+    background: #f3f3f3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; 
+}
+
+
+section {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+#login-section {
+    border-right: 1px solid #ccc;
+}
+
+.azure-login {
+    text-align: center; /* Center the content horizontally */
+    position: relative; /* Position the pseudo-element relative to this container */
+}
+
+.azure-login-button {
+    display: inline-block; /* Ensure the button and label are displayed inline */
+    text-align: center; /* Center the content horizontally */
+}
+
+.azure-login-button button {
+    width: 400px;
+    margin-bottom: 10px; /* Add space between button and label */
+}
+
+img[src="azure ad.png"] {
+    width: 100px;
+    height: 40px;
+}
+
+.azure-login-button label {
+    display: block; /* Ensure the label is on a new line */
+}
+
+#login-section form {
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+
+#login-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#login-section input[type="text"],
+#login-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.remember-me {
+    display: flex; /* Set display to flex */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.remember-me .remember {
+    display: flex; /* Set display to flex */
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+}
+
+.remember-me label {
+    margin-left: 3px;
+}
+
+#forgot-password {
+    margin-left: 20px; 
+}
+
+#submit-btn {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+#additional-info p {
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+#additional-info button {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 20%;
+}
+
+#additional-info .submit-ticket {
+    display: inline-block;
+}
+
+#submit-btn, #additional-info button {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #e6e6e6;
+    color: black;
+    padding: 5px;
+    text-align: right;
+}
