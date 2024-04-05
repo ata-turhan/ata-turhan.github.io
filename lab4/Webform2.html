@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style2.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Golden Dome Market</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand">Golden Dome Market : : : SRM System</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Suppliers</a>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <span>Hello!</span>
+          <button class="btn-sign-out" type="submit">Sign Out</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h4 class="mt-4 py-2">New Product Form</h4>
+    <div class="row px-4 py-2">
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="productNo" class="form-label">Product Number</label>
+          <input id="productNo" class="form-control" type="text" />
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input id="name" class="form-control" type="text" />
+        </div>
+        <div class="mb-3">
+          <label for="price" class="form-label">Unit Price</label>
+          <input id="price" class="form-control" type="number" value="0.0" />
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mb-3">
+          <label for="quantity" class="form-label">Quantity in stock</label>
+          <input id="quantity" class="form-control" type="number" value="0" />
+        </div>
+        <div class="mb-3">
+          <label for="supplier" class="form-label">Supplier:</label>
+          <select id="supplier" class="form-select">
+            <option selected>Select a supplier</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="date" class="form-label">Date supplied</label>
+          <input
+            id="date"
+            class="form-control"
+            type="text"
+            placeholder="yyyy-mm-dd"
+          />
+          <div id="dateHelp" class="form-text">Enter a valid Date.</div>
+        </div>
+        <div class="d-flex justify-content-end">
+          <button type="button" class="btn btn-outline-secondary btn-gap">
+            Reset
+          </button>
+          <button type="button" class="btn btn-outline-danger btn-gap">
+            Cancel
+          </button>
+          <button type="button" class="btn btn-outline-primary btn-gap">
+            Add Product
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
