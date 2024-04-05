@@ -140,6 +140,13 @@ img[src="img/azure_ad.png"] {
     padding-bottom: 5px;
 }
 
+#additional-info {
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
 
 #additional-info p {
     margin-bottom: 20px;
