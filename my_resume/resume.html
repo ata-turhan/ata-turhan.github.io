@@ -1,39 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <title>My Online CV</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <h1>My Online CV</h1>
+        <h1>John Doe</h1>
+        <address>
+            Email: ataturhan21@gmail.com
+            <br />
+            LinkedIn: <a href="https://www.linkedin.com/in/ataturhan">Profile</a>
+        </address>
     </header>
+
     <main>
-      <article id="education">
-        <h2>Education</h2>
-        <ul>
-          <li>Bachelor of Science, Computer Science, University of XYZ, 2015-2019</li>
-          <li>Master of Science, Human-Computer Interaction, University of ABC, 2019-2021</li>
-        </ul>
-      </article>
-      <article id="experience">
-        <h2>Work Experience</h2>
-        <ul>
-          <li>Software Engineer, Company XYZ, 2019-2021</li>
-          <li>UX Designer, Company ABC, 2021-present</li>
-        </ul>
-      </article>
-      <article id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>UX Design</li>
-        </ul>
-      </article>
-    </main>
-  </body>
+        <article id="summary">
+            <h2>Professional Summary</h2>
+            <p>
+                I am a Machine Learning Software Engineer.
+            </p>
+        </article>
+
+        <article id="education">
+            <h2>Education</h2>
+            <ul>
+               <li>Bachelor of Science, TOBB ETU, Aug 2019 - May 2023</li>
+            </ul>
+        </article>
+
+        <article id="experience">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>Software Developer, Softtech, May 2021 - Dec 2021</li>
+            </ul>
+        </article>
+
+        <article id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Machine Learning</li>
+            </ul>
+
+        </article>
+<article id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="">Resume</a> - My Resume</li>
+            </ul>
+        </article>
+
+        <article id="contact">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/ataturhan21@gmail.com"
+          method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </article>
+ </main>
+</body>
+
 </html>

@@ -51,12 +51,49 @@
   
   ul {
     margin: 0;
-    padding: 0;
-    list-style: none;
+    padding-left: 10px;
+  
   }
   
   li {
     margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
     color: #555;
+  }
+  
+  form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+      margin-top: 20px;
+  }
+  
+  label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 10px;
+      background-color: #fff;
+  }
+  
+  button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+      background-color: #3e8e41;
   }
